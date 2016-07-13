@@ -22,5 +22,5 @@ screen
 
 تمام:)
 * * *
- # Developer > [MehdiHS](https://Telegram.me/MehdiHS)
- # [Channel](https://Telegram.me/Black_CH)
+ Developer > [MehdiHS](https://Telegram.me/MehdiHS)
+ [Channel](https://Telegram.me/Black_CH)
