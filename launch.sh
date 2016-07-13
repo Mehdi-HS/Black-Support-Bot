@@ -50,6 +50,6 @@ if [ "$1" = "install" ]; then
 else
   while true; do
     lua bot.lua
-    sleep 5s
+    sleep 10s
   done
 fi
