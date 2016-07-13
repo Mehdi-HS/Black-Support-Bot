@@ -169,7 +169,7 @@ function bot_run()
 
 	bot = bot.result
 
-	local bot_info = "Username = @"..bot.username.."\nName = "..bot.first_name.."\nId = "..bot.id
+	local bot_info = "Username = @"..bot.username.."\nName = "..bot.first_name.."\nId = "..bot.id.."Developer > @MehdiHS\nChannel > @Black_CH"
 	print(bot_info)
 
 	last_update = last_update or 0
