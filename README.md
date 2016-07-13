@@ -17,6 +17,8 @@ cd Black-Support-Bot
 
 screen
 
+chmod +x launch.sh
+
 ./launch.sh
 
 تمام:)
