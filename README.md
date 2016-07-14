@@ -24,8 +24,11 @@ chmod +x launch.sh
 # بعد ار نصب کردن ربات حتما اونو تو گروه معمولی ادد کنید و دستور های زیر رو بفرستید تا ربات کار کنه
 
 /setrealm
+
 /startmsg BlackSuppport Bot
+
 /donemsg Send!
+
 
 تمام:)
 * * *
