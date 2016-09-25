@@ -321,7 +321,14 @@ if msg then
 
     elseif msg.text:match("^/nerkh") or msg.text:match("^/plist") or msg.text:match("^/planlist") then
 	sendMessage(msg.chat.id,'*لیست قیمت های خرید گروه با* [BlackPlus](https://telegram.me/bIackplus)\n\n `-` *1 ماهه* > `5000` _تومان_\n `-` *3 ماهه* > `10000` _تومان_\n `-` *نامحدود* > `20000` _تومان_ ',true,nil,true)
-	
+    elseif msg.text:match("^/broadcast (.*)") and is_admin(msg) then 
+          local gps = redis:smembers("pmrsn:users1") 
+          local matches = { string.match(msg.text, "^/broadcast (.*)") } 
+          local text = matches[1] 
+      for i=1, #gps do 
+       sendMessage(gps[i],matches[1],true,nil,true) 
+      end 
+       sendMessage(msg.chat.id,'Done.',true,nil,true)
 	elseif msg.text:match("^/clean blocklist") and is_admin(msg) then
 	sendMessage(msg.chat.id,'لیستتتت افراد بلاک شده با موفقیت خالی شد.',true,nil,true)
 	redis:del('pmrsn:blocksa')
