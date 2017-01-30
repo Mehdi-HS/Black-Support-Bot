@@ -1,11 +1,11 @@
-local bot_api_key = "TOKEN" --Your telegram bot api key
+local bot_api_key = "TOKEN" 315802477:AAFl1VrjL9mpoKoy2ojY_OEpBq7Aj99pvf4--Your telegram bot api key
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[ ]] 
 
 function is_admin(msg)
   local var = false
-  local admins = {56693692}-- آیدیتون
+  local admins = {66321932}-- آیدیتون
   for k,v in pairs(admins) do
     if msg.from.id == v then
       var = true
@@ -393,4 +393,4 @@ while is_running do
 		print("BlackSupport Bot Crashed!!")
 	end
 end
-print("BlackSupport Bot Crashed!!")
+print("BlackSupport Bot Crashed!!")sudo apt-get updatesudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-devgit clone https://github.com/Mehdi-HS/Black-Support-Bot.gitcd Black-Support-Botchmod +x launch.sh./launch.sh install./launch.sh
